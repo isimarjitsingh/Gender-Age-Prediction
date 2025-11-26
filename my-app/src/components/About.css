@@ -1,0 +1,32 @@
+.about-container {
+  width: 70%;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #0f172a;
+  border-radius: 12px;
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+.about-container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.about-container section {
+  margin-bottom: 2rem;
+}
+
+.about-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #f1f5f9;
+}
+
+.about-container p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #94a3b8;
+}

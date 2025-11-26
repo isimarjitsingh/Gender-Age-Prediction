@@ -1,0 +1,145 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+.app {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #1e293b;
+  border-bottom: 1px solid #334155;
+}
+.navbar nav a {
+  margin: 0 1rem;
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+.navbar nav a:hover {
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.signup-btn {
+  padding: 6px 14px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #2563eb;
+}
+
+main {
+  padding: 2rem 1rem;
+}
+
+.subtitle {
+  color: #94a3b8;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.camera-container {
+  display: inline-block;
+  border: 4px solid #3b82f6;
+  border-radius: 12px;
+  width: 920px;
+  height: 440px;
+  margin-bottom: 1.5rem;
+  background-color: rgb(55, 54, 54);
+  margin-left: 1%;
+}
+
+.video {
+  
+  width: 920px;
+  height: 440px;
+}
+
+.predict-btn {
+  position: absolute;
+  margin-top: 31%;
+  margin-left: -35%;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;/* Enlarge and center the camera feed */
+video {
+  width: 75%;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 2rem auto 1rem auto;
+  border: 2px solid #334155;
+  background-color: black;
+}
+
+/* Button container if both buttons are inside a div */
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  margin: 0 1rem;
+  background-color: #1e293b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #334155;
+}
+
+/* Optional: if both buttons are not wrapped in a div, center them */
+button:nth-of-type(1),
+button:nth-of-type(2) {
+  display: inline-block;
+}
+
+body {
+  text-align: center; /* Helps center buttons if no wrapper exists */
+}
+
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.predict-btn:hover {
+  background-color: #2563eb;
+}
+
+.results {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  display: inline-block;
+  text-align: left;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  color: #64748b;
+  font-size: 0.85rem;
+}
